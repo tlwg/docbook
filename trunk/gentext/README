@@ -1,27 +1,15 @@
 DocBook gentext
 ---------------
 
-These files form the common sources for the DSSSL and XSL stylesheet
-localizations.
-
-Replace with files in these directory against docbook/gentext of
-DocBook Repository at http://docbook.sourceforge.net
-
-You need XML Parser, XSLT Processor and need to
-hack wrapper script in docbook/cvstools of DocBook Repository
-to Build this gentext
+The thai locale drivers is in locale directory.
+Please note : The Thai (th) locale had been merged to
+Norman Walsh Stylesheet in docbook repository
 
 More information see http://docbook.sourceforge.net
 
-th locale :
-
-- Copyrighted (C) 2001 by Phattanon Duangdara
-
-- Changlog
-  2001-11-26: sf_alpha : Merge with DocBook gentext dsssl from pruet booma <pruet@pruet@eng.cmu.ac.th>
-  2001-11-15: sf_alpha : Initial th locale DocBook gentext xsl
+Copyrighted (C) 2001 by Phattanon Duangdara
 
 ---------------
-2001-11-26
+2002-01-22
 Phattanon Duangdara <sf_alpha@shin-host.com>
 Thai Linux Working Group - http://linux.thai.net
