@@ -22,9 +22,10 @@
 
 <style-specification id="html" use="html-stylesheet">
 <style-specification-body>
+(declare-characteristic preserve-sdata?           "UNREGISTERED::James Clark//Characteristic::preserve-sdata?" #f)
 (define %default-language% "th")
 (define %stylesheet% "docbook.css")
-(define %link-mailto-url% "pruet@eng.cmu.ac.th")
+(define %link-mailto-url% "mailto:pruet@eng.cmu.ac.th")
 (define %graphic-default-extension% "png")
 (define %admon-graphics% #t)
 (define %root-filename% "index")
@@ -32,7 +33,7 @@
 (define %html-pubid% "-//IETF//DTD HTML//EN")
 (define %html-header-tags%
 	'(("META" ("HTTP-EQUIV" "Content-Type") 
-		("CONTENT" "text/html;charset=TIS-620")))
+		("CONTENT" "text/html;charset=tis-620")))
 	)
 (define %html-index% #t)
 (define %user-id-as-filename% #t)
@@ -40,6 +41,6 @@
 (define %gentext-nav-use-tables% #t)
 </style-specification-body>
 </style-specification>
-<external-specification id="html-stylesheet" document="html-ss">
 <external-specification id="print-stylesheet" document="print-ss">
+<external-specification id="html-stylesheet" document="html-ss">
 </style-sheet>
