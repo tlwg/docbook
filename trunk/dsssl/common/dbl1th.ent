@@ -43,8 +43,8 @@
 <!ENTITY IMPORTANT       "สำคัญ">
 <!ENTITY important       "สำคัญ">
 <!ENTITY Important       "สำคัญ">
-<!ENTITY Index           "สารบัญ">
-<!ENTITY index           "สารบัญ">
+<!ENTITY Index           "ดรรชนี">
+<!ENTITY index           "ดรรชนี">
 <!ENTITY ISBN            "ISBN">
 <!ENTITY isbn            "ISBN">
 <!ENTITY LegalNotice     "Legal Notice">
@@ -58,8 +58,8 @@
 <!ENTITY NOTE            "หมายเหตุ">
 <!ENTITY Note            "หมายเหตุ">
 <!ENTITY note            "หมายเหตุ">
-<!ENTITY Part            "ส่วน">
-<!ENTITY part            "ส่วน">
+<!ENTITY Part            "ภาค">
+<!ENTITY part            "ภาค">
 <!ENTITY Preface         "บทนำ">
 <!ENTITY preface         "บทนำ">
 <!ENTITY Procedure       "ระเบียบการ">
@@ -71,8 +71,8 @@
 <!ENTITY question        "คำถาม:">
 <!ENTITY RefEntry        "">
 <!ENTITY refentry        "">
-<!ENTITY Reference       "อ้างอิง">
-<!ENTITY reference       "อ้างอิง">
+<!ENTITY Reference       "หนังสืออ้างอิง">
+<!ENTITY reference       "หนังสืออ้างอิง">
 <!ENTITY RefName         "ชื่อ">
 <!ENTITY refname         "ชื่อ">
 <!ENTITY RefSection      "">
@@ -92,9 +92,9 @@
 <!ENTITY Section         "ตอน">
 <!ENTITY See             "ดู">
 <!ENTITY see             "ดู">
-<!ENTITY SeeAlso         "ดู">
-<!ENTITY seealso         "ดู">
-<!ENTITY Seealso         "ดู">
+<!ENTITY SeeAlso         "ดูเพิ่มเติม">
+<!ENTITY seealso         "ดูเพิ่มเติม">
+<!ENTITY Seealso         "ดูเพิ่มเติม">
 <!ENTITY set             "ชุด">
 <!ENTITY Set             "ชุด">
 <!ENTITY setindex        "สารบัญชุด">
@@ -134,14 +134,14 @@
 <!ENTITY unexpectedelementname "Unexpected element name">
 <!ENTITY unsupported     "unsupported">
 <!ENTITY xrefto          "อ้างอิงถึง">
-<!ENTITY listofequations "รายการสมการ">
-<!ENTITY ListofEquations "รายการสมการ">
-<!ENTITY ListofExamples  "รายการตัวอย่าง">
-<!ENTITY listofexamples  "รายการตัวอย่าง">
-<!ENTITY ListofFigures   "รายการรูป">
-<!ENTITY listoffigures   "รายการรูป">
-<!ENTITY listoftables    "รายการตาราง">
-<!ENTITY ListofTables    "รายการตาราง">
+<!ENTITY listofequations "สารบัญสมการ">
+<!ENTITY ListofEquations "สารบัญสมการ">
+<!ENTITY ListofExamples  "สารบัญตัวอย่าง">
+<!ENTITY listofexamples  "สารบัญตัวอย่าง">
+<!ENTITY ListofFigures   "สารบัญรูป">
+<!ENTITY listoffigures   "สารบัญรูป">
+<!ENTITY listoftables    "สารบัญตาราง">
+<!ENTITY ListofTables    "สารบัญตาราง">
 <!ENTITY ListofUnknown   "List of Unknown">
 <!ENTITY listofunknown   "List of Unknown">
 <!ENTITY nav-home        "หน้าแรก">
