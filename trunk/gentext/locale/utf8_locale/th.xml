@@ -7,14 +7,15 @@
 <doc:localeinfo xmlns="">
 <authorgroup>
   <author><firstname>Phattanon</firstname><surname>Duangdara</surname>
-          <affiliation><address><email>sf_alpha@shin-host.com</email></address>
+          <affiliation><address><email>sf_alpha@linux.thai.net</email></address>
           </affiliation>
   </author>
   <author><firstname>Pruet</firstname><surname>Boonma</surname>
           <affiliation><address><email>pruet@eng.cmu.ac.th</email></address>
           </affiliation>
   </author>
-</authorgroup></doc:localeinfo>
+</authorgroup>
+</doc:localeinfo>
 
 <gentext key="Abstract" text="บทคัดย่อ"/>
 <gentext key="abstract" text="บทคัดย่อ"/>
@@ -33,20 +34,20 @@
 <gentext key="caution" text="คำเตือน"/>
 <gentext key="Chapter" text="บทที่"/>
 <gentext key="chapter" text="บทที่"/>
-<gentext key="Colophon" text="เบื้องหลัง"/><!-- FIXME: Don't Sure -->
-<gentext key="colophon" text="เบื้องหลัง"/><!-- FIXME: Don't Sure  -->
+<gentext key="Colophon" text="เบื้องหลัง"/>
+<gentext key="colophon" text="เบื้องหลัง"/>
 <gentext key="Copyright" text="สงวนสิขสิทธิ์"/>
 <gentext key="copyright" text="สงวนสิขสิทธิ์"/>
-<gentext key="Dedication" text="คำอุทิศ"/>
-<gentext key="dedication" text="คำอุทิศ"/>
-<gentext key="Edition" text="ฉบับ"/>
-<gentext key="edition" text="ฉบับ"/>
-<gentext key="Equation" text="สมการ"/>
-<gentext key="equation" text="สมการ"/>
-<gentext key="Example" text="ตัวอย่าง"/>
-<gentext key="example" text="ตัวอย่าง"/>
-<gentext key="Figure" text="รูป"/>
-<gentext key="figure" text="รูป"/>
+<gentext key="Dedication" text="อุทิศ"/>
+<gentext key="dedication" text="อุทิศ"/>
+<gentext key="Edition" text="รุ่น"/>
+<gentext key="edition" text="รุ่น"/>
+<gentext key="Equation" text="สมการที่"/>
+<gentext key="equation" text="สมการที่"/>
+<gentext key="Example" text="ตัวอย่างที่"/>
+<gentext key="example" text="ตัวอย่างที่"/>
+<gentext key="Figure" text="รูปที่"/>
+<gentext key="figure" text="รูปที่"/>
 <gentext key="Glossary" text="อภิทานศัพท์"/>
 <gentext key="glossary" text="อภิทานศัพท์"/>
 <gentext key="GlossSee" text="ดู"/>
@@ -60,12 +61,12 @@
 <gentext key="index" text="ดรรชนี"/>
 <gentext key="ISBN" text="ISBN"/>
 <gentext key="isbn" text="ISBN"/>
-<gentext key="LegalNotice" text="ข้อผูกพันตามกฎหมาย"/><!-- FIXME: Don't Sure -->
-<gentext key="legalnotice" text="ข้อผูกพันตามกฎหมาย"/><!-- FIXME: Don't Sure -->
-<gentext key="MsgAud" text="ผู้อ่าน"/><!-- FIXME: Don't Sure -->
-<gentext key="msgaud" text="ผู้อ่าน"/><!-- FIXME: Don't Sure -->
-<gentext key="MsgLevel" text="ระดับ"/><!-- FIXME: Don't Sure -->
-<gentext key="msglevel" text="ระดับ"/><!-- FIXME: Don't Sure -->
+<gentext key="LegalNotice" text="ข้อผูกพันตามกฎหมาย"/>
+<gentext key="legalnotice" text="ข้อผูกพันตามกฎหมาย"/>
+<gentext key="MsgAud" text="ผู้อ่าน"/>
+<gentext key="msgaud" text="ผู้อ่าน"/>
+<gentext key="MsgLevel" text="ระดับ"/>
+<gentext key="msglevel" text="ระดับ"/>
 <gentext key="MsgOrig" text="ที่มา"/>
 <gentext key="msgorig" text="ที่มา"/>
 <gentext key="NOTE" text="หมายเหตุ"/>
@@ -77,7 +78,7 @@
 <gentext key="preface" text="คำนำ"/>
 <gentext key="Procedure" text="ระเบียบการ"/>
 <gentext key="procedure" text="ระเบียบการ"/>
-<gentext key="ProductionSet" text="ผลิต"/>
+<gentext key="ProductionSet" text="ผลลัพท์"/>
 <gentext key="Published" text="ตีพิมพ์"/>
 <gentext key="published" text="ตีพิมพ์"/>
 <gentext key="Question" text="ถาม:"/>
@@ -114,10 +115,10 @@
 <gentext key="SetIndex" text="สารบัญชุด"/>
 <gentext key="Sidebar" text=""/>
 <gentext key="sidebar" text="sidebar"/>
-<gentext key="step" text="ลำดับ"/>
-<gentext key="Step" text="ลำดับ"/>
-<gentext key="Table" text="ตาราง"/>
-<gentext key="table" text="ตาราง"/>
+<gentext key="step" text="ขั้น"/>
+<gentext key="Step" text="ขั้น"/>
+<gentext key="Table" text="ตารางที่"/>
+<gentext key="table" text="ตารางที่"/>
 <gentext key="tip" text="คำแนะนำ"/>
 <gentext key="TIP" text="คำแนะนำ"/>
 <gentext key="Tip" text="คำแนะนำ"/>
@@ -133,10 +134,10 @@
 <gentext key="editedby" text="เรียบเรียงโดบ"/>
 <gentext key="in" text="ใน"/>
 
-<gentext key="lastlistcomma" text=","/><!-- FIXME: Thai lanuage has no comma for spearate list ? -->
-<gentext key="listcomma" text=","/><!-- FIXME: Thai lanuage has no comma for spearate list ? -->
+<gentext key="lastlistcomma" text=","/>
+<gentext key="listcomma" text=","/>
 
-<gentext key="nonexistantelement" text="ไม่พบส่วนที่ต้องการ"/><!-- FIXME: Don't Sure -->
+<gentext key="nonexistantelement" text="ไม่พบส่วนที่ต้องการ"/>
 <gentext key="notes" text="หมายเหตุ"/>
 <gentext key="Notes" text="หมายเหตุ"/>
 <gentext key="Pgs" text="หน้า"/>
@@ -147,7 +148,7 @@
 <gentext key="tablenotes" text="หมายเหตุ"/>
 <gentext key="TableofContents" text="สารบัญ"/>
 <gentext key="tableofcontents" text="สารบัญ"/>
-<gentext key="unexpectedelementname" text="พบส่วนที่ไม่ต้องการ"/><!-- FIXME: Don't Sure -->
+<gentext key="unexpectedelementname" text="พบส่วนที่ไม่ต้องการ"/>
 <gentext key="unsupported" text="ไม่สนับสนุน"/>
 <gentext key="xrefto" text="xref to"/>
 
@@ -155,7 +156,7 @@
 <gentext key="ListofEquations" text="สารบัญสมการ"/>
 <gentext key="ListofExamples" text="สารบัญตัวอย่าง"/>
 <gentext key="listofexamples" text="สารบัญตัวอย่าง"/>
-<gentext key="ListofFigures" text="สารบัญรูป"/>
+<gentext key="ListofFigures" text="สารบรูป"/>
 <gentext key="listoffigures" text="สารบัญรูป"/>
 <gentext key="listoftables" text="สารบัญตาราง"/>
 <gentext key="ListofTables" text="สารบัญตาราง"/>
@@ -164,12 +165,12 @@
 
 <gentext key="nav-home" text="หน้าแรก"/>
 <gentext key="nav-next" text="ต่อไป"/>
-<gentext key="nav-next-sibling" text="ต่อไป"/>
+<gentext key="nav-next-sibling" text="ต่อไปอีก"/>
 <gentext key="nav-prev" text="ก่อนหน้า"/>
-<gentext key="nav-prev-sibling" text="ก่อนหน้า"/>
+<gentext key="nav-prev-sibling" text="ก่อนหน้าอีก"/>
 <gentext key="nav-up" text="กลับ"/>
 
-<gentext key="sectioncalled" text="ตอนนี้เ้รียกว่า"/>
+<gentext key="sectioncalled" text="ตอนนี้เรียกว่า"/>
 
 <gentext key="index symbols" text="สัญลักษณ์"/>
 
@@ -255,9 +256,11 @@
 
 </context>
 
-<context name="section-title">
+<context name="title-unnumbered">
 
+<template name="appendix">%t</template>
 <template name="bridgehead">%t</template>
+<template name="chapter">%t</template>
 <template name="sect1">%t</template>
 <template name="sect2">%t</template>
 <template name="sect3">%t</template>
@@ -268,9 +271,11 @@
 
 </context>
 
-<context name="section-title-numbered">
+<context name="title-numbered">
 
+<template name="appendix"><Appendix/> %n. %t</template>
 <template name="bridgehead">%n. %t</template>
+<template name="chapter"><Chapter/> %n. %t</template>
 <template name="sect1">%n. %t</template>
 <template name="sect2">%n. %t</template>
 <template name="sect3">%n. %t</template>
