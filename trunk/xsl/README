@@ -1,8 +1,23 @@
+DocBook XSL
+---------------
 
-DocBook XML Thai Language Support for
-Norman Walsh DocBook XSL
+These files form the common sources for the DSSSL and XSL stylesheet
+localizations.
 
-/common/th.xml	  XML Data file for Thai Language (lang="th")
-/common/l10n.xml  XML Data file for l10n
+Replace with files in these directory against docbook/xsl of
+DocBook Repository at http://docbook.sourceforge.net
 
-Phattanon Duangdara
+More information see http://docbook.sourceforge.net
+
+th locale :
+
+- Copyrighted (C) 2001 by Phattanon Duangdara
+
+- Changlog
+  2001-11-26: sf_alpha : Merge with DocBook gentext dsssl from pruet booma <pruet@pruet@eng.cmu.ac.th>
+  2001-11-15: sf_alpha : Initial th locale DocBook gentext xsl
+
+---------------
+2001-11-26
+Phattanon Duangdara <sf_alpha@shin-host.com>
+Thai Linux Working Group - http://linux.thai.net
