@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+
+<!-- there is no doctype for these files, they are WF only -->
+<locale language="th" xmlns:doc="http://nwalsh.com/xsl/documentation/1.0" english-language-name="Thai">
+
+<doc:localeinfo xmlns="">
+<authorgroup>
+  <author><firstname>Phattanon</firstname><surname>Duangdara</surname>
+          <affiliation><address><email>sf_alpha@shin-host.com</email></address>
+          </affiliation>
+  </author>
+  <author><firstname>Pruet</firstname><surname>Boonma</surname>
+          <affiliation><address><email>pruet@eng.cmu.ac.th</email></address>
+          </affiliation>
+  </author>
+</authorgroup>
+</doc:localeinfo>
+
+<gentext key="Abstract" text="&#xe1A;&#xe17;&#xe04;&#xe31;&#xe14;&#xe22;&#xe48;&#xe2D;"/>
+<gentext key="abstract" text="&#xe1A;&#xe17;&#xe04;&#xe31;&#xe14;&#xe22;&#xe48;&#xe2D;"/>
+<gentext key="Answer" text="&#xe15;&#xe2D;&#xe1A;:"/>
+<gentext key="answer" text="&#xe15;&#xe2D;&#xe1A;:"/>
+<gentext key="Appendix" text="&#xe20;&#xe32;&#xe04;&#xe1C;&#xe19;&#xe27;&#xe01;"/>
+<gentext key="appendix" text="&#xe20;&#xe32;&#xe04;&#xe1C;&#xe19;&#xe27;&#xe01;"/>
+<gentext key="Article" text="&#xe1A;&#xe17;&#xe04;&#xe27;&#xe32;&#xe21;"/>
+<gentext key="article" text="&#xe1A;&#xe17;&#xe04;&#xe27;&#xe32;&#xe21;"/>
+<gentext key="Bibliography" text="&#xe1A;&#xe23;&#xe23;&#xe13;&#xe32;&#xe19;&#xe38;&#xe01;&#xe23;&#xe21;"/>
+<gentext key="bibliography" text="&#xe1A;&#xe23;&#xe23;&#xe13;&#xe32;&#xe19;&#xe38;&#xe01;&#xe23;&#xe21;"/>
+<gentext key="Book" text="&#xe2B;&#xe19;&#xe31;&#xe07;&#xe2A;&#xe37;&#xe2D;"/>
+<gentext key="book" text="&#xe2B;&#xe19;&#xe31;&#xe07;&#xe2A;&#xe37;&#xe2D;"/>
+<gentext key="CAUTION" text="&#xe04;&#xe33;&#xe40;&#xe15;&#xe37;&#xe2D;&#xe19;"/>
+<gentext key="Caution" text="&#xe04;&#xe33;&#xe40;&#xe15;&#xe37;&#xe2D;&#xe19;"/>
+<gentext key="caution" text="&#xe04;&#xe33;&#xe40;&#xe15;&#xe37;&#xe2D;&#xe19;"/>
+<gentext key="Chapter" text="&#xe1A;&#xe17;&#xe17;&#xe35;&#xe48;"/>
+<gentext key="chapter" text="&#xe1A;&#xe17;&#xe17;&#xe35;&#xe48;"/>
+<gentext key="Colophon" text="&#xe40;&#xe1A;&#xe37;&#xe49;&#xe2D;&#xe07;&#xe2B;&#xe25;&#xe31;&#xe07;"/><!-- FIXME: Don't Sure -->
+<gentext key="colophon" text="&#xe40;&#xe1A;&#xe37;&#xe49;&#xe2D;&#xe07;&#xe2B;&#xe25;&#xe31;&#xe07;"/><!-- FIXME: Don't Sure  -->
+<gentext key="Copyright" text="&#xe2A;&#xe07;&#xe27;&#xe19;&#xe2A;&#xe34;&#xe02;&#xe2A;&#xe34;&#xe17;&#xe18;&#xe34;&#xe4C;"/>
+<gentext key="copyright" text="&#xe2A;&#xe07;&#xe27;&#xe19;&#xe2A;&#xe34;&#xe02;&#xe2A;&#xe34;&#xe17;&#xe18;&#xe34;&#xe4C;"/>
+<gentext key="Dedication" text="&#xe2D;&#xe38;&#xe17;&#xe34;&#xe28;"/><!-- FIXME: Don't Sure -->
+<gentext key="dedication" text="&#xe2D;&#xe38;&#xe17;&#xe34;&#xe28;"/><!-- FIXME: Don't Sure -->
+<gentext key="Edition" text="&#xe09;&#xe1A;&#xe31;&#xe1A;"/>
+<gentext key="edition" text="&#xe09;&#xe1A;&#xe31;&#xe1A;"/>
+<gentext key="Equation" text="&#xe2A;&#xe21;&#xe01;&#xe32;&#xe23;"/>
+<gentext key="equation" text="&#xe2A;&#xe21;&#xe01;&#xe32;&#xe23;"/>
+<gentext key="Example" text="&#xe15;&#xe31;&#xe27;&#xe2D;&#xe22;&#xe48;&#xe32;&#xe07;"/>
+<gentext key="example" text="&#xe15;&#xe31;&#xe27;&#xe2D;&#xe22;&#xe48;&#xe32;&#xe07;"/>
+<gentext key="Figure" text="&#xe23;&#xe39;&#xe1B;"/>
+<gentext key="figure" text="&#xe23;&#xe39;&#xe1B;"/>
+<gentext key="Glossary" text="&#xe2D;&#xe20;&#xe34;&#xe17;&#xe32;&#xe19;&#xe28;&#xe31;&#xe1e;&#xe17;&#xe4C;"/>
+<gentext key="glossary" text="&#xe2D;&#xe20;&#xe34;&#xe17;&#xe32;&#xe19;&#xe28;&#xe31;&#xe1e;&#xe17;&#xe4C;"/>
+<gentext key="GlossSee" text="&#xe14;&#xe39;"/>
+<gentext key="glosssee" text="&#xe14;&#xe39;"/>
+<gentext key="GlossSeeAlso" text="&#xe14;&#xe39;"/>
+<gentext key="glossseealso" text="&#xe14;&#xe39;"/>
+<gentext key="IMPORTANT" text="&#xe02;&#xe49;&#xe2D;&#xe04;&#xe27;&#xe23;&#xe08;&#xe33;"/><!-- FIXME: "&#xe2A;&#xe33;&#xe04;&#xe31;&#xe0D;" not suitable : usually not spoken ? -->
+<gentext key="important" text="&#xe02;&#xe49;&#xe2D;&#xe04;&#xe27;&#xe23;&#xe08;&#xe33;"/><!-- FIXME: "&#xe2A;&#xe33;&#xe04;&#xe31;&#xe0D;" not suitable : usually not spoken ? -->
+<gentext key="Important" text="&#xe02;&#xe49;&#xe2D;&#xe04;&#xe27;&#xe23;&#xe08;&#xe33;"/><!-- FIXME: "&#xe2A;&#xe33;&#xe04;&#xe31;&#xe0D;" not suitable : usually not spoken ? -->
+<gentext key="Index" text="&#xe14;&#xe23;&#xe23;&#xe0A;&#xe19;&#xe35;"/>
+<gentext key="index" text="&#xe14;&#xe23;&#xe23;&#xe0A;&#xe19;&#xe35;"/>
+<gentext key="ISBN" text="ISBN"/>
+<gentext key="isbn" text="ISBN"/>
+<gentext key="LegalNotice" text="&#xe02;&#xe49;&#xe2D;&#xe1C;&#xe39;&#xe01;&#xe1e;&#xe31;&#xe19;&#xe15;&#xe32;&#xe21;&#xe01;&#xe0e;&#xe2B;&#xe21;&#xe32;&#xe22;"/><!-- FIXME: Don't Sure -->
+<gentext key="legalnotice" text="&#xe02;&#xe49;&#xe2D;&#xe1C;&#xe39;&#xe01;&#xe1e;&#xe31;&#xe19;&#xe15;&#xe32;&#xe21;&#xe01;&#xe0e;&#xe2B;&#xe21;&#xe32;&#xe22;"/><!-- FIXME: Don't Sure -->
+<gentext key="MsgAud" text="&#xe1C;&#xe39;&#xe49;&#xe2D;&#xe48;&#xe32;&#xe19;"/><!-- FIXME: Don't Sure -->
+<gentext key="msgaud" text="&#xe1C;&#xe39;&#xe49;&#xe2D;&#xe48;&#xe32;&#xe19;"/><!-- FIXME: Don't Sure -->
+<gentext key="MsgLevel" text="&#xe23;&#xe30;&#xe14;&#xe31;&#xe1A;"/><!-- FIXME: Don't Sure -->
+<gentext key="msglevel" text="&#xe23;&#xe30;&#xe14;&#xe31;&#xe1A;"/><!-- FIXME: Don't Sure -->
+<gentext key="MsgOrig" text="&#xe17;&#xe35;&#xe48;&#xe21;&#xe32;"/>
+<gentext key="msgorig" text="&#xe17;&#xe35;&#xe48;&#xe21;&#xe32;"/>
+<gentext key="NOTE" text="&#xe2B;&#xe21;&#xe32;&#xe22;&#xe40;&#xe2B;&#xe15;&#xe38;"/>
+<gentext key="Note" text="&#xe2B;&#xe21;&#xe32;&#xe22;&#xe40;&#xe2B;&#xe15;&#xe38;"/>
+<gentext key="note" text="&#xe2B;&#xe21;&#xe32;&#xe22;&#xe40;&#xe2B;&#xe15;&#xe38;"/>
+<gentext key="Part" text="&#xe20;&#xe32;&#xe04;"/>
+<gentext key="part" text="&#xe20;&#xe32;&#xe04;"/>
+<gentext key="Preface" text="&#xe04;&#xe33;&#xe19;&#xe33;"/>
+<gentext key="preface" text="&#xe04;&#xe33;&#xe19;&#xe33;"/>
+<gentext key="Procedure" text="&#xe23;&#xe30;&#xe40;&#xe1A;&#xe35;&#xe22;&#xe1A;&#xe01;&#xe32;&#xe23;"/>
+<gentext key="procedure" text="&#xe23;&#xe30;&#xe40;&#xe1A;&#xe35;&#xe22;&#xe1A;&#xe01;&#xe32;&#xe23;"/>
+<gentext key="ProductionSet" text="&#xe1C;&#xe25;&#xe34;&#xe15;"/>
+<gentext key="Published" text="&#xe40;&#xe1C;&#xe22;&#xe41;&#xe1e;&#xe23;&#xe48;"/><!-- FIXME: "&#xe15;&#xe35;&#xe1e;&#xe34;&#xe21;&#xe1e;&#xe4C;" not enough coverage : online-doc ? -->
+<gentext key="published" text="&#xe40;&#xe1C;&#xe22;&#xe41;&#xe1e;&#xe23;&#xe48;"/><!-- FIXME: "&#xe15;&#xe35;&#xe1e;&#xe34;&#xe21;&#xe1e;&#xe4C;" not enough coverage : online-doc ?  -->
+<gentext key="Question" text="&#xe16;&#xe32;&#xe21;:"/>
+<gentext key="question" text="&#xe16;&#xe32;&#xe21;:"/>
+<gentext key="RefEntry" text=""/>
+<gentext key="refentry" text=""/>
+<gentext key="Reference" text="&#xe2B;&#xe19;&#xe31;&#xe07;&#xe2A;&#xe37;&#xe2D;&#xe2D;&#xe49;&#xe32;&#xe07;&#xe2D;&#xe34;&#xe07;"/>
+<gentext key="reference" text="&#xe2B;&#xe19;&#xe31;&#xe07;&#xe2A;&#xe37;&#xe2D;&#xe2D;&#xe49;&#xe32;&#xe07;&#xe2D;&#xe34;&#xe07;"/>
+<gentext key="RefName" text="&#xe0A;&#xe37;&#xe48;&#xe2D;"/>
+<gentext key="refname" text="&#xe0A;&#xe37;&#xe48;&#xe2D;"/>
+<gentext key="RefSection" text=""/>
+<gentext key="refsection" text=""/>
+<gentext key="RefSynopsisDiv" text="&#xe02;&#xe49;&#xe2D;&#xe21;&#xe39;&#xe25;&#xe42;&#xe14;&#xe22;&#xe2A;&#xe31;&#xe07;&#xe40;&#xe02;&#xe1B;"/><!-- FIXME: "&#xe40;&#xe23;&#xe37;&#xe48;&#xe2D;&#xe07;&#xe22;&#xe48;&#xe2D;" not enough coverage ? -->
+<gentext key="refsynopsisdiv" text="&#xe02;&#xe49;&#xe2D;&#xe21;&#xe39;&#xe25;&#xe42;&#xe14;&#xe22;&#xe2A;&#xe31;&#xe07;&#xe40;&#xe02;&#xe1B;"/><!-- FIXME: "&#xe40;&#xe23;&#xe37;&#xe48;&#xe2D;&#xe07;&#xe22;&#xe48;&#xe2D;" not enough coverage ? -->
+<gentext key="RevHistory" text="&#xe1A;&#xe31;&#xe19;&#xe17;&#xe36;&#xe01;&#xe23;&#xe38;&#xe48;&#xe19;"/><!-- FIXME: "&#xe1A;&#xe31;&#xe19;&#xe17;&#xe36;&#xe01;&#xe01;&#xe32;&#xe23;&#xe1B;&#xe23;&#xe31;&#xe1A;&#xe1B;&#xe23;&#xe38;&#xe07;&#xe41;&#xe01;&#xe49;&#xe44;&#xe02;" not suitable : Revision equivalent to Version ? -->
+<gentext key="revhistory" text="&#xe1A;&#xe31;&#xe19;&#xe17;&#xe36;&#xe01;&#xe23;&#xe38;&#xe48;&#xe19;"/><!-- FIXME: "&#xe1A;&#xe31;&#xe19;&#xe17;&#xe36;&#xe01;&#xe01;&#xe32;&#xe23;&#xe1B;&#xe23;&#xe31;&#xe1A;&#xe1B;&#xe23;&#xe38;&#xe07;&#xe41;&#xe01;&#xe49;&#xe44;&#xe02;" not suitable : Revision equivalent to Version ? -->
+<gentext key="revision" text="&#xe23;&#xe38;&#xe48;&#xe19;&#xe17;&#xe35;&#xe48;"/><!-- FIXME: "&#xe1B;&#xe23;&#xe31;&#xe1A;&#xe1B;&#xe23;&#xe38;&#xe07;&#xe41;&#xe01;&#xe49;&#xe44;&#xe02;" not suitable : Revision equivalent to Version ? -->
+<gentext key="Revision" text="&#xe23;&#xe38;&#xe48;&#xe19;&#xe17;&#xe35;&#xe48;"/><!-- FIXME: "&#xe1B;&#xe23;&#xe31;&#xe1A;&#xe1B;&#xe23;&#xe38;&#xe07;&#xe41;&#xe01;&#xe49;&#xe44;&#xe02;" not suitable : Revision equivalent to Version ? -->
+<gentext key="sect1" text="&#xe15;&#xe2D;&#xe19;&#xe17;&#xe35;&#xe48;"/>
+<gentext key="sect2" text="&#xe15;&#xe2D;&#xe19;&#xe17;&#xe35;&#xe48;"/>
+<gentext key="sect3" text="&#xe15;&#xe2D;&#xe19;&#xe17;&#xe35;&#xe48;"/>
+<gentext key="sect4" text="&#xe15;&#xe2D;&#xe19;&#xe17;&#xe35;&#xe48;"/>
+<gentext key="sect5" text="&#xe15;&#xe2D;&#xe19;&#xe17;&#xe35;&#xe48;"/>
+<gentext key="section" text="&#xe15;&#xe2D;&#xe19;&#xe17;&#xe35;&#xe48;"/>
+<gentext key="Section" text="&#xe15;&#xe2D;&#xe19;&#xe17;&#xe35;&#xe48;"/>
+<gentext key="See" text="&#xe14;&#xe39;"/>
+<gentext key="see" text="&#xe14;&#xe39;"/>
+<gentext key="SeeAlso" text="&#xe14;&#xe39;&#xe40;&#xe1e;&#xe34;&#xe48;&#xe21;&#xe40;&#xe15;&#xe34;&#xe21;"/>
+<gentext key="seealso" text="&#xe14;&#xe39;&#xe40;&#xe1e;&#xe34;&#xe48;&#xe21;&#xe40;&#xe15;&#xe34;&#xe21;"/>
+<gentext key="Seealso" text="&#xe14;&#xe39;&#xe40;&#xe1e;&#xe34;&#xe48;&#xe21;&#xe40;&#xe15;&#xe34;&#xe21;"/>
+<gentext key="set" text="&#xe0A;&#xe38;&#xe14;"/>
+<gentext key="Set" text="&#xe0A;&#xe38;&#xe14;"/>
+<gentext key="setindex" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe0A;&#xe38;&#xe14;"/>
+<gentext key="SetIndex" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe0A;&#xe38;&#xe14;"/>
+<gentext key="Sidebar" text=""/>
+<gentext key="sidebar" text="&#xe41;&#xe16;&#xe1A;&#xe02;&#xe49;&#xe32;&#xe07;"/><!-- FIXME: Should this use "sidebar" instead ? -->
+<gentext key="step" text="&#xe25;&#xe33;&#xe14;&#xe31;&#xe1A;"/>
+<gentext key="Step" text="&#xe25;&#xe33;&#xe14;&#xe31;&#xe1A;"/>
+<gentext key="Table" text="&#xe15;&#xe32;&#xe23;&#xe32;&#xe07;"/>
+<gentext key="table" text="&#xe15;&#xe32;&#xe23;&#xe32;&#xe07;"/>
+<gentext key="tip" text="&#xe04;&#xe33;&#xe41;&#xe19;&#xe30;&#xe19;&#xe33;"/>
+<gentext key="TIP" text="&#xe04;&#xe33;&#xe41;&#xe19;&#xe30;&#xe19;&#xe33;"/>
+<gentext key="Tip" text="&#xe04;&#xe33;&#xe41;&#xe19;&#xe30;&#xe19;&#xe33;"/>
+<gentext key="Warning" text="&#xe42;&#xe1B;&#xe23;&#xe14;&#xe23;&#xe30;&#xe27;&#xe31;&#xe07;"/><!-- FIXME: Should be more attention than "&#xe04;&#xe33;&#xe40;&#xe15;&#xe37;&#xe2D;&#xe19;"? -->
+<gentext key="warning" text="&#xe42;&#xe1B;&#xe23;&#xe14;&#xe23;&#xe30;&#xe27;&#xe31;&#xe07;"/><!-- FIXME: Should be more attention than "&#xe04;&#xe33;&#xe40;&#xe15;&#xe37;&#xe2D;&#xe19;" ? -->
+<gentext key="WARNING" text="&#xe42;&#xe1B;&#xe23;&#xe14;&#xe23;&#xe30;&#xe27;&#xe31;&#xe07;"/><!-- FIXME: Should be more attention than "&#xe04;&#xe33;&#xe40;&#xe15;&#xe37;&#xe2D;&#xe19;" ? -->
+
+<gentext key="and" text="&#xe41;&#xe25;&#xe30;"/>
+<gentext key="by" text="&#xe42;&#xe14;&#xe22;"/>
+<gentext key="Edited" text="&#xe40;&#xe23;&#xe35;&#xe22;&#xe1A;&#xe40;&#xe23;&#xe35;&#xe22;&#xe07;"/>
+<gentext key="edited" text="&#xe40;&#xe23;&#xe35;&#xe22;&#xe1A;&#xe40;&#xe23;&#xe35;&#xe22;&#xe07;"/>
+<gentext key="Editedby" text="&#xe40;&#xe23;&#xe35;&#xe22;&#xe1A;&#xe40;&#xe23;&#xe35;&#xe22;&#xe07;&#xe42;&#xe14;&#xe1A;"/>
+<gentext key="editedby" text="&#xe40;&#xe23;&#xe35;&#xe22;&#xe1A;&#xe40;&#xe23;&#xe35;&#xe22;&#xe07;&#xe42;&#xe14;&#xe1A;"/>
+<gentext key="in" text="&#xe43;&#xe19;"/>
+
+<gentext key="lastlistcomma" text=" &#xe41;&#xe25;&#xe30; "/><!-- FIXME: Thai lanuage has "&#xe41;&#xe25;&#xe30;" for last list ? -->
+<!-- FIXME: How done with "&#xe2B;&#xe23;&#xe37;&#xe2D;" in last list ? -->
+<!-- ***WARNING***
+English Language Confilict : Should use lang="en" Explicitly for English context
+-->
+<gentext key="listcomma" text=" "/><!-- FIXME: Thai lanuage has no comma for spearate list ? -->
+<!-- ***WARNING***
+English Language Confilict  : Should use lang="en" Explicitly for English context
+-->
+
+<gentext key="nonexistantelement" text="&#xe44;&#xe21;&#xe48;&#xe1e;&#xe1A;&#xe2A;&#xe48;&#xe27;&#xe19;&#xe17;&#xe35;&#xe48;&#xe15;&#xe49;&#xe2D;&#xe07;&#xe01;&#xe32;&#xe23;"/><!-- FIXME: Don't Sure -->
+<gentext key="notes" text="&#xe2B;&#xe21;&#xe32;&#xe22;&#xe40;&#xe2B;&#xe15;&#xe38;"/>
+<gentext key="Notes" text="&#xe2B;&#xe21;&#xe32;&#xe22;&#xe40;&#xe2B;&#xe15;&#xe38;"/>
+<gentext key="Pgs" text="&#xe2B;&#xe19;&#xe49;&#xe32;"/>
+<gentext key="pgs" text="&#xe2B;&#xe19;&#xe49;&#xe32;"/>
+<gentext key="Revisedby" text="&#xe41;&#xe01;&#xe49;&#xe44;&#xe02;&#xe1B;&#xe23;&#xe31;&#xe1A;&#xe1B;&#xe23;&#xe38;&#xe07;&#xe42;&#xe14;&#xe22;: "/>
+<gentext key="revisedby" text="&#xe41;&#xe01;&#xe49;&#xe44;&#xe02;&#xe1B;&#xe23;&#xe31;&#xe1A;&#xe1B;&#xe23;&#xe38;&#xe07;&#xe42;&#xe14;&#xe22;: "/>
+<gentext key="TableNotes" text="&#xe2B;&#xe21;&#xe32;&#xe22;&#xe40;&#xe2B;&#xe15;&#xe38;"/>
+<gentext key="tablenotes" text="&#xe2B;&#xe21;&#xe32;&#xe22;&#xe40;&#xe2B;&#xe15;&#xe38;"/>
+<gentext key="TableofContents" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;"/>
+<gentext key="tableofcontents" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;"/>
+<gentext key="unexpectedelementname" text="&#xe1e;&#xe1A;&#xe2A;&#xe48;&#xe27;&#xe19;&#xe17;&#xe35;&#xe48;&#xe44;&#xe21;&#xe48;&#xe15;&#xe49;&#xe2D;&#xe07;&#xe01;&#xe32;&#xe23;"/><!-- FIXME: Don't Sure -->
+<gentext key="unsupported" text="&#xe44;&#xe21;&#xe48;&#xe2A;&#xe19;&#xe31;&#xe1A;&#xe2A;&#xe19;&#xe38;&#xe19;"/>
+<gentext key="xrefto" text="xref to"/>
+
+<gentext key="listofequations" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe2A;&#xe21;&#xe01;&#xe32;&#xe23;"/>
+<gentext key="ListofEquations" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe2A;&#xe21;&#xe01;&#xe32;&#xe23;"/>
+<gentext key="ListofExamples" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe15;&#xe31;&#xe27;&#xe2D;&#xe22;&#xe48;&#xe32;&#xe07;"/>
+<gentext key="listofexamples" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe15;&#xe31;&#xe27;&#xe2D;&#xe22;&#xe48;&#xe32;&#xe07;"/>
+<gentext key="ListofFigures" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe23;&#xe39;&#xe1B;"/>
+<gentext key="listoffigures" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe23;&#xe39;&#xe1B;"/>
+<gentext key="listoftables" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe15;&#xe32;&#xe23;&#xe32;&#xe07;"/>
+<gentext key="ListofTables" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe15;&#xe32;&#xe23;&#xe32;&#xe07;"/>
+<gentext key="ListofUnknown" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe2D;&#xe37;&#xe48;&#xe19;&#xe46;"/>
+<gentext key="listofunknown" text="&#xe2A;&#xe32;&#xe23;&#xe1A;&#xe31;&#xe0D;&#xe2D;&#xe37;&#xe48;&#xe19;&#xe46;"/>
+
+<gentext key="nav-home" text="&#xe2B;&#xe19;&#xe49;&#xe32;&#xe41;&#xe23;&#xe01;"/>
+<gentext key="nav-next" text="&#xe15;&#xe48;&#xe2D;&#xe44;&#xe1B;"/>
+<gentext key="nav-next-sibling" text="&#xe15;&#xe48;&#xe2D;&#xe44;&#xe1B;&#xe40;&#xe37;&#xe23;&#xe37;&#xe48;&#xe2D;&#xe22; &#xe46;"/>
+<gentext key="nav-prev" text="&#xe01;&#xe48;&#xe2D;&#xe19;&#xe2B;&#xe19;&#xe49;&#xe32;"/>
+<gentext key="nav-prev-sibling" text="&#xe01;&#xe48;&#xe2D;&#xe19;&#xe2B;&#xe19;&#xe49;&#xe32;&#xe40;&#xe23;&#xe37;&#xe48;&#xe2D;&#xe22; &#xe46;"/>
+<gentext key="nav-up" text="&#xe01;&#xe25;&#xe31;&#xe1A;"/>
+
+<gentext key="sectioncalled" text="&#xe15;&#xe2D;&#xe19;&#xe19;&#xe35;&#xe49;&#xe40;&#xe49;&#xe23;&#xe35;&#xe22;&#xe01;&#xe27;&#xe48;&#xe32;"/>
+
+<gentext key="index symbols" text="&#xe2A;&#xe31;&#xe0D;&#xe25;&#xe31;&#xe01;&#xe29;&#xe13;&#xe4C;"/>
+
+<gentext key="lowercase.alpha" text="abcdefghijklmnopqrstuvwxyz"/>
+<gentext key="uppercase.alpha" text="ABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+
+<dingbat key="startquote" text="&#x201C;"/>
+<dingbat key="endquote" text="&#x201D;"/>
+<dingbat key="nestedstartquote" text="&#x2018;"/>
+<dingbat key="nestedendquote" text="&#x2019;"/>
+<dingbat key="bullet" text="&#x2022;"/>
+
+<context name="title">
+
+<template name="abstract">%t</template>
+<template name="answer">%t</template>
+<template name="appendix"><Appendix/> %n. %t</template>
+<template name="article">%t</template>
+<template name="authorblurb">%t</template>
+<template name="bibliodiv">%t</template>
+<template name="biblioentry">%t</template>
+<template name="bibliography">%t</template>
+<template name="bibliomixed">%t</template>
+<template name="bibliomset">%t</template>
+<template name="biblioset">%t</template>
+<template name="blockquote">%t</template>
+<template name="book">%t</template>
+<template name="calloutlist">%t</template>
+<template name="caution">%t</template>
+<template name="chapter"><Chapter/> %n. %t</template>
+<template name="colophon">%t</template>
+<template name="dedication">%t</template>
+<template name="equation"><Equation/> %n. %t</template>
+<template name="example"><Example/> %n. %t</template>
+<template name="figure"><Figure/> %n. %t</template>
+<template name="formalpara">%t</template>
+<template name="glossary">%t</template>
+<template name="glossdiv">%t</template>
+<template name="important">%t</template>
+<template name="index">%t</template>
+<template name="indexdiv">%t</template>
+<template name="itemizedlist">%t</template>
+<template name="legalnotice">%t</template>
+<template name="listitem"/>
+<template name="lot">%t</template>
+<template name="msg">%t</template>
+<template name="msgexplan">%t</template>
+<template name="msgmain">%t</template>
+<template name="msgrel">%t</template>
+<template name="msgset">%t</template>
+<template name="msgsub">%t</template>
+<template name="note">%t</template>
+<template name="orderedlist">%t</template>
+<template name="part"><Part/> %n. %t</template>
+<template name="partintro">%t</template>
+<template name="preface">%t</template>
+<template name="procedure">%t</template>
+<template name="procedure.formal"><Procedure/> %n. %t</template>
+<template name="productionset">%t</template>
+<template name="productionset.formal"><ProductionSet/> %n</template>
+<template name="qandadiv">%t</template>
+<template name="qandaentry">%t</template>
+<template name="qandaset">%t</template>
+<template name="question">%t</template>
+<template name="refentry">%t</template>
+<template name="reference">%t</template>
+<template name="refsect1">%t</template>
+<template name="refsect2">%t</template>
+<template name="refsect3">%t</template>
+<template name="refsynopsisdiv">%t</template>
+<template name="refsynopsisdivinfo">%t</template>
+<template name="segmentedlist">%t</template>
+<template name="set">%t</template>
+<template name="setindex">%t</template>
+<template name="sidebar">%t</template>
+<template name="step">%t</template>
+<template name="table"><Table/> %n. %t</template>
+<template name="tip">%t</template>
+<template name="toc">%t</template>
+<template name="variablelist">%t</template>
+<template name="varlistentry"/>
+<template name="warning">%t</template>
+
+</context>
+
+<context name="section-title">
+
+<template name="bridgehead">%t</template>
+<template name="sect1">%t</template>
+<template name="sect2">%t</template>
+<template name="sect3">%t</template>
+<template name="sect4">%t</template>
+<template name="sect5">%t</template>
+<template name="section">%t</template>
+<template name="simplesect">%t</template>
+
+</context>
+
+<context name="section-title-numbered">
+
+<template name="bridgehead">%n. %t</template>
+<template name="sect1">%n. %t</template>
+<template name="sect2">%n. %t</template>
+<template name="sect3">%n. %t</template>
+<template name="sect4">%n. %t</template>
+<template name="sect5">%n. %t</template>
+<template name="section">%n. %t</template>
+<template name="simplesect">%t</template>
+
+</context>
+
+<context name="subtitle">
+
+<template name="appendix">%s</template>
+<template name="article">%s</template>
+<template name="bibliodiv">%s</template>
+<template name="biblioentry">%s</template>
+<template name="bibliography">%s</template>
+<template name="bibliomixed">%s</template>
+<template name="bibliomset">%s</template>
+<template name="biblioset">%s</template>
+<template name="book">%s</template>
+<template name="chapter">%s</template>
+<template name="colophon">%s</template>
+<template name="dedication">%s</template>
+<template name="glossary">%s</template>
+<template name="glossdiv">%s</template>
+<template name="index">%s</template>
+<template name="indexdiv">%s</template>
+<template name="lot">%s</template>
+<template name="part">%s</template>
+<template name="partintro">%s</template>
+<template name="preface">%s</template>
+<template name="refentry">%s</template>
+<template name="reference">%s</template>
+<template name="refsect1">%s</template>
+<template name="refsect2">%s</template>
+<template name="refsect3">%s</template>
+<template name="refsynopsisdiv">%s</template>
+<template name="sect1">%s</template>
+<template name="sect2">%s</template>
+<template name="sect3">%s</template>
+<template name="sect4">%s</template>
+<template name="sect5">%s</template>
+<template name="section">%s</template>
+<template name="set">%s</template>
+<template name="setindex">%s</template>
+<template name="sidebar">%s</template>
+<template name="simplesect">%s</template>
+<template name="toc">%s</template>
+
+</context>
+
+<context name="xref">
+
+<template name="answer"><Answer/> %n</template>
+<template name="appendix"><Appendix/> %n</template>
+<template name="article">%t</template>
+<template name="bibliography">%t</template>
+<template name="book">%t</template>
+<template name="chapter"><Chapter/> %n</template>
+<template name="colophon">%t</template>
+<template name="dedication">%t</template>
+<template name="equation"><Equation/> %n</template>
+<template name="example"><Example/> %n</template>
+<template name="figure"><Figure/> %n</template>
+<template name="glossary">%t</template>
+<template name="index">%t</template>
+<template name="listitem">%n</template>
+<template name="part"><Part/> %n</template>
+<template name="preface">%t</template>
+<template name="procedure"><Procedure/> %n</template>
+<template name="qandadiv">%t</template>
+<template name="qandaentry"><Question/> %n</template>
+<template name="qandaset">%t</template>
+<template name="question"><Question/> %n</template>
+<template name="reference">%t</template>
+<template name="set">%t</template>
+<template name="setindex">%t</template>
+<template name="table"><Table/> %n</template>
+<template name="varlistentry">%n</template>
+
+</context>
+
+<context name="section-xref">
+
+<template name="bridgehead"><sectioncalled/> &#x201C;%t&#x201D;</template>
+<template name="sect1"><sectioncalled/> &#x201C;%t&#x201D;</template>
+<template name="sect2"><sectioncalled/> &#x201C;%t&#x201D;</template>
+<template name="sect3"><sectioncalled/> &#x201C;%t&#x201D;</template>
+<template name="sect4"><sectioncalled/> &#x201C;%t&#x201D;</template>
+<template name="sect5"><sectioncalled/> &#x201C;%t&#x201D;</template>
+<template name="section"><sectioncalled/> &#x201C;%t&#x201D;</template>
+<template name="simplesect"><sectioncalled/> &#x201C;%t&#x201D;</template>
+
+</context>
+
+<context name="section-xref-numbered">
+
+<template name="bridgehead"><Section/> %n</template>
+<template name="sect1"><Section/> %n</template>
+<template name="sect2"><Section/> %n</template>
+<template name="sect3"><Section/> %n</template>
+<template name="sect4"><Section/> %n</template>
+<template name="sect5"><Section/> %n</template>
+<template name="section"><Section/> %n</template>
+<template name="simplesect"><sectioncalled/> &#x201C;%t&#x201D;</template>
+
+</context>
+
+<context name="authorgroup">
+<template name="sep"><listcomma/> </template>
+<template name="sep2"> <and/> </template>
+<template name="seplast"><lastlistcomma/> <and/> </template>
+</context>
+
+<context name="glossary">
+<template name="see"><GlossSee/> </template>
+<template name="seealso"><GlossSeeAlso/> </template>
+</context>
+
+<context name="msgset">
+<template name="MsgAud"><MsgAud/>: </template>
+<template name="MsgLevel"><MsgLevel/>: </template>
+<template name="MsgOrig"><MsgOrig/>: </template>
+</context>
+
+</locale>
+
