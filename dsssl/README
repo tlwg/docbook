@@ -1,4 +1,0 @@
-This directory should be the same level as /usr/share/sgml/docbook/dsssl-stylesheets-1.72/  . To support Thai language in docbook (at least for HTML) you should copy all files in the subdirectories to your sgml-docbook directories respectively.  The thai.dsl file is a basic stylesheet file for jade. This file can be used with this command,
-jade -d ./thai.dsl -t html ./myfile.sgml 
- 
-Pruet Boonma <pruet@eng.cmu.ac.th>
