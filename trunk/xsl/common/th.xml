@@ -25,16 +25,16 @@
 <l:gentext key="colophon" text="&#3648;&#3610;&#3639;&#3657;&#3629;&#3591;&#3627;&#3621;&#3633;&#3591;"/>
 <l:gentext key="Copyright" text="&#3626;&#3591;&#3623;&#3609;&#3626;&#3636;&#3586;&#3626;&#3636;&#3607;&#3608;&#3636;&#3660;"/>
 <l:gentext key="copyright" text="&#3626;&#3591;&#3623;&#3609;&#3626;&#3636;&#3586;&#3626;&#3636;&#3607;&#3608;&#3636;&#3660;"/>
-<l:gentext key="Dedication" text="&#3588;&#3635;&#3629;&#3640;&#3607;&#3636;&#3624;"/>
-<l:gentext key="dedication" text="&#3588;&#3635;&#3629;&#3640;&#3607;&#3636;&#3624;"/>
-<l:gentext key="Edition" text="&#3593;&#3610;&#3633;&#3610;"/>
-<l:gentext key="edition" text="&#3593;&#3610;&#3633;&#3610;"/>
-<l:gentext key="Equation" text="&#3626;&#3617;&#3585;&#3634;&#3619;"/>
-<l:gentext key="equation" text="&#3626;&#3617;&#3585;&#3634;&#3619;"/>
-<l:gentext key="Example" text="&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591;"/>
-<l:gentext key="example" text="&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591;"/>
-<l:gentext key="Figure" text="&#3619;&#3641;&#3611;"/>
-<l:gentext key="figure" text="&#3619;&#3641;&#3611;"/>
+<l:gentext key="Dedication" text="&#3629;&#3640;&#3607;&#3636;&#3624;"/>
+<l:gentext key="dedication" text="&#3629;&#3640;&#3607;&#3636;&#3624;"/>
+<l:gentext key="Edition" text="&#3619;&#3640;&#3656;&#3609;"/>
+<l:gentext key="edition" text="&#3619;&#3640;&#3656;&#3609;"/>
+<l:gentext key="Equation" text="&#3626;&#3617;&#3585;&#3634;&#3619;&#3607;&#3637;&#3656;"/>
+<l:gentext key="equation" text="&#3626;&#3617;&#3585;&#3634;&#3619;&#3607;&#3637;&#3656;"/>
+<l:gentext key="Example" text="&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591;&#3607;&#3637;&#3656;"/>
+<l:gentext key="example" text="&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591;&#3607;&#3637;&#3656;"/>
+<l:gentext key="Figure" text="&#3619;&#3641;&#3611;&#3607;&#3637;&#3656;"/>
+<l:gentext key="figure" text="&#3619;&#3641;&#3611;&#3607;&#3637;&#3656;"/>
 <l:gentext key="Glossary" text="&#3629;&#3616;&#3636;&#3607;&#3634;&#3609;&#3624;&#3633;&#3614;&#3607;&#3660;"/>
 <l:gentext key="glossary" text="&#3629;&#3616;&#3636;&#3607;&#3634;&#3609;&#3624;&#3633;&#3614;&#3607;&#3660;"/>
 <l:gentext key="GlossSee" text="&#3604;&#3641;"/>
@@ -65,7 +65,7 @@
 <l:gentext key="preface" text="&#3588;&#3635;&#3609;&#3635;"/>
 <l:gentext key="Procedure" text="&#3619;&#3632;&#3648;&#3610;&#3637;&#3618;&#3610;&#3585;&#3634;&#3619;"/>
 <l:gentext key="procedure" text="&#3619;&#3632;&#3648;&#3610;&#3637;&#3618;&#3610;&#3585;&#3634;&#3619;"/>
-<l:gentext key="ProductionSet" text="&#3612;&#3621;&#3636;&#3605;"/>
+<l:gentext key="ProductionSet" text="&#3612;&#3621;&#3621;&#3633;&#3614;&#3607;&#3660;"/>
 <l:gentext key="Published" text="&#3605;&#3637;&#3614;&#3636;&#3617;&#3614;&#3660;"/>
 <l:gentext key="published" text="&#3605;&#3637;&#3614;&#3636;&#3617;&#3614;&#3660;"/>
 <l:gentext key="Question" text="&#3606;&#3634;&#3617;:"/>
@@ -102,10 +102,10 @@
 <l:gentext key="SetIndex" text="&#3626;&#3634;&#3619;&#3610;&#3633;&#3597;&#3594;&#3640;&#3604;"/>
 <l:gentext key="Sidebar" text=""/>
 <l:gentext key="sidebar" text="sidebar"/>
-<l:gentext key="step" text="&#3621;&#3635;&#3604;&#3633;&#3610;"/>
-<l:gentext key="Step" text="&#3621;&#3635;&#3604;&#3633;&#3610;"/>
-<l:gentext key="Table" text="&#3605;&#3634;&#3619;&#3634;&#3591;"/>
-<l:gentext key="table" text="&#3605;&#3634;&#3619;&#3634;&#3591;"/>
+<l:gentext key="step" text="&#3586;&#3633;&#3657;&#3609;"/>
+<l:gentext key="Step" text="&#3586;&#3633;&#3657;&#3609;"/>
+<l:gentext key="Table" text="&#3605;&#3634;&#3619;&#3634;&#3591;&#3607;&#3637;&#3656;"/>
+<l:gentext key="table" text="&#3605;&#3634;&#3619;&#3634;&#3591;&#3607;&#3637;&#3656;"/>
 <l:gentext key="tip" text="&#3588;&#3635;&#3649;&#3609;&#3632;&#3609;&#3635;"/>
 <l:gentext key="TIP" text="&#3588;&#3635;&#3649;&#3609;&#3632;&#3609;&#3635;"/>
 <l:gentext key="Tip" text="&#3588;&#3635;&#3649;&#3609;&#3632;&#3609;&#3635;"/>
@@ -139,7 +139,7 @@
 <l:gentext key="ListofEquations" text="&#3626;&#3634;&#3619;&#3610;&#3633;&#3597;&#3626;&#3617;&#3585;&#3634;&#3619;"/>
 <l:gentext key="ListofExamples" text="&#3626;&#3634;&#3619;&#3610;&#3633;&#3597;&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591;"/>
 <l:gentext key="listofexamples" text="&#3626;&#3634;&#3619;&#3610;&#3633;&#3597;&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591;"/>
-<l:gentext key="ListofFigures" text="&#3626;&#3634;&#3619;&#3610;&#3633;&#3597;&#3619;&#3641;&#3611;"/>
+<l:gentext key="ListofFigures" text="&#3626;&#3634;&#3619;&#3610;&#3619;&#3641;&#3611;"/>
 <l:gentext key="listoffigures" text="&#3626;&#3634;&#3619;&#3610;&#3633;&#3597;&#3619;&#3641;&#3611;"/>
 <l:gentext key="listoftables" text="&#3626;&#3634;&#3619;&#3610;&#3633;&#3597;&#3605;&#3634;&#3619;&#3634;&#3591;"/>
 <l:gentext key="ListofTables" text="&#3626;&#3634;&#3619;&#3610;&#3633;&#3597;&#3605;&#3634;&#3619;&#3634;&#3591;"/>
@@ -147,11 +147,11 @@
 <l:gentext key="listofunknown" text="&#3626;&#3634;&#3619;&#3610;&#3633;&#3597;&#3629;&#3639;&#3656;&#3609; &#3654;"/>
 <l:gentext key="nav-home" text="&#3627;&#3609;&#3657;&#3634;&#3649;&#3619;&#3585;"/>
 <l:gentext key="nav-next" text="&#3605;&#3656;&#3629;&#3652;&#3611;"/>
-<l:gentext key="nav-next-sibling" text="&#3605;&#3656;&#3629;&#3652;&#3611;"/>
+<l:gentext key="nav-next-sibling" text="&#3605;&#3656;&#3629;&#3652;&#3611;&#3629;&#3637;&#3585;"/>
 <l:gentext key="nav-prev" text="&#3585;&#3656;&#3629;&#3609;&#3627;&#3609;&#3657;&#3634;"/>
-<l:gentext key="nav-prev-sibling" text="&#3585;&#3656;&#3629;&#3609;&#3627;&#3609;&#3657;&#3634;"/>
+<l:gentext key="nav-prev-sibling" text="&#3585;&#3656;&#3629;&#3609;&#3627;&#3609;&#3657;&#3634;&#3629;&#3637;&#3585;"/>
 <l:gentext key="nav-up" text="&#3585;&#3621;&#3633;&#3610;"/>
-<l:gentext key="sectioncalled" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3657;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634;"/>
+<l:gentext key="sectioncalled" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634;"/>
 <l:gentext key="index symbols" text="&#3626;&#3633;&#3597;&#3621;&#3633;&#3585;&#3625;&#3603;&#3660;"/>
 <l:gentext key="lowercase.alpha" text="abcdefghijklmnopqrstuvwxyz"/>
 <l:gentext key="uppercase.alpha" text="ABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
@@ -179,9 +179,9 @@
 <l:template name="chapter" text="&#3610;&#3607;&#3607;&#3637;&#3656; %n. %t"/>
 <l:template name="colophon" text="%t"/>
 <l:template name="dedication" text="%t"/>
-<l:template name="equation" text="&#3626;&#3617;&#3585;&#3634;&#3619; %n. %t"/>
-<l:template name="example" text="&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591; %n. %t"/>
-<l:template name="figure" text="&#3619;&#3641;&#3611; %n. %t"/>
+<l:template name="equation" text="&#3626;&#3617;&#3585;&#3634;&#3619;&#3607;&#3637;&#3656; %n. %t"/>
+<l:template name="example" text="&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591;&#3607;&#3637;&#3656; %n. %t"/>
+<l:template name="figure" text="&#3619;&#3641;&#3611;&#3607;&#3637;&#3656; %n. %t"/>
 <l:template name="formalpara" text="%t"/>
 <l:template name="glossary" text="%t"/>
 <l:template name="glossdiv" text="%t"/>
@@ -206,7 +206,7 @@
 <l:template name="procedure" text="%t"/>
 <l:template name="procedure.formal" text="&#3619;&#3632;&#3648;&#3610;&#3637;&#3618;&#3610;&#3585;&#3634;&#3619; %n. %t"/>
 <l:template name="productionset" text="%t"/>
-<l:template name="productionset.formal" text="&#3612;&#3621;&#3636;&#3605; %n"/>
+<l:template name="productionset.formal" text="&#3612;&#3621;&#3621;&#3633;&#3614;&#3607;&#3660; %n"/>
 <l:template name="qandadiv" text="%t"/>
 <l:template name="qandaentry" text="%t"/>
 <l:template name="qandaset" text="%t"/>
@@ -223,15 +223,17 @@
 <l:template name="setindex" text="%t"/>
 <l:template name="sidebar" text="%t"/>
 <l:template name="step" text="%t"/>
-<l:template name="table" text="&#3605;&#3634;&#3619;&#3634;&#3591; %n. %t"/>
+<l:template name="table" text="&#3605;&#3634;&#3619;&#3634;&#3591;&#3607;&#3637;&#3656; %n. %t"/>
 <l:template name="tip" text="%t"/>
 <l:template name="toc" text="%t"/>
 <l:template name="variablelist" text="%t"/>
 <l:template name="varlistentry" text=""/>
 <l:template name="warning" text="%t"/>
 </l:context>
-<l:context name="section-title">
+<l:context name="title-unnumbered">
+<l:template name="appendix" text="%t"/>
 <l:template name="bridgehead" text="%t"/>
+<l:template name="chapter" text="%t"/>
 <l:template name="sect1" text="%t"/>
 <l:template name="sect2" text="%t"/>
 <l:template name="sect3" text="%t"/>
@@ -240,8 +242,10 @@
 <l:template name="section" text="%t"/>
 <l:template name="simplesect" text="%t"/>
 </l:context>
-<l:context name="section-title-numbered">
+<l:context name="title-numbered">
+<l:template name="appendix" text="&#3616;&#3634;&#3588;&#3612;&#3609;&#3623;&#3585; %n. %t"/>
 <l:template name="bridgehead" text="%n. %t"/>
+<l:template name="chapter" text="&#3610;&#3607;&#3607;&#3637;&#3656; %n. %t"/>
 <l:template name="sect1" text="%n. %t"/>
 <l:template name="sect2" text="%n. %t"/>
 <l:template name="sect3" text="%n. %t"/>
@@ -298,9 +302,9 @@
 <l:template name="chapter" text="&#3610;&#3607;&#3607;&#3637;&#3656; %n"/>
 <l:template name="colophon" text="%t"/>
 <l:template name="dedication" text="%t"/>
-<l:template name="equation" text="&#3626;&#3617;&#3585;&#3634;&#3619; %n"/>
-<l:template name="example" text="&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591; %n"/>
-<l:template name="figure" text="&#3619;&#3641;&#3611; %n"/>
+<l:template name="equation" text="&#3626;&#3617;&#3585;&#3634;&#3619;&#3607;&#3637;&#3656; %n"/>
+<l:template name="example" text="&#3605;&#3633;&#3623;&#3629;&#3618;&#3656;&#3634;&#3591;&#3607;&#3637;&#3656; %n"/>
+<l:template name="figure" text="&#3619;&#3641;&#3611;&#3607;&#3637;&#3656; %n"/>
 <l:template name="glossary" text="%t"/>
 <l:template name="index" text="%t"/>
 <l:template name="listitem" text="%n"/>
@@ -314,18 +318,18 @@
 <l:template name="reference" text="%t"/>
 <l:template name="set" text="%t"/>
 <l:template name="setindex" text="%t"/>
-<l:template name="table" text="&#3605;&#3634;&#3619;&#3634;&#3591; %n"/>
+<l:template name="table" text="&#3605;&#3634;&#3619;&#3634;&#3591;&#3607;&#3637;&#3656; %n"/>
 <l:template name="varlistentry" text="%n"/>
 </l:context>
 <l:context name="section-xref">
-<l:template name="bridgehead" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3657;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
-<l:template name="sect1" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3657;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
-<l:template name="sect2" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3657;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
-<l:template name="sect3" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3657;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
-<l:template name="sect4" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3657;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
-<l:template name="sect5" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3657;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
-<l:template name="section" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3657;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
-<l:template name="simplesect" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3657;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
+<l:template name="bridgehead" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
+<l:template name="sect1" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
+<l:template name="sect2" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
+<l:template name="sect3" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
+<l:template name="sect4" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
+<l:template name="sect5" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
+<l:template name="section" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
+<l:template name="simplesect" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
 </l:context>
 <l:context name="section-xref-numbered">
 <l:template name="bridgehead" text="&#3605;&#3629;&#3609;&#3607;&#3637;&#3656; %n"/>
@@ -335,7 +339,7 @@
 <l:template name="sect4" text="&#3605;&#3629;&#3609;&#3607;&#3637;&#3656; %n"/>
 <l:template name="sect5" text="&#3605;&#3629;&#3609;&#3607;&#3637;&#3656; %n"/>
 <l:template name="section" text="&#3605;&#3629;&#3609;&#3607;&#3637;&#3656; %n"/>
-<l:template name="simplesect" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3657;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
+<l:template name="simplesect" text="&#3605;&#3629;&#3609;&#3609;&#3637;&#3657;&#3648;&#3619;&#3637;&#3618;&#3585;&#3623;&#3656;&#3634; &#8220;%t&#8221;"/>
 </l:context>
 <l:context name="authorgroup">
 <l:template name="sep" text=","/>
