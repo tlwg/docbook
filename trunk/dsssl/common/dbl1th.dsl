@@ -9,7 +9,7 @@
 <style-specification id="docbook-l10n-th">
 <style-specification-body>
 
-;; $Id: dbl1th.dsl,v 1.1.1.1 2001-11-21 15:43:20 pruet Exp $
+;; $Id: dbl1th.dsl,v 1.2 2001-12-10 02:04:45 sf_alpha Exp $
 ;;
 ;; This file is part of the Modular DocBook Stylesheet distribution.
 ;; See ../README or http://nwalsh.com/docbook/dsssl/
@@ -21,7 +21,7 @@
 ;; Norman Walsh, ndw@nwalsh.com
 
 ;; The generated text for cross references to elements.  See dblink.dsl
-;; for a discussion of how substitution is performed on the %x 
+;; for a discussion of how substitution is performed on the %x
 ;; keywords.
 ;;
 
@@ -49,15 +49,15 @@
 	    (equal? (gi author) (normalize "editor"))
 	    (equal? (gi author) (normalize "othercredit")))
 	(string-append
-	 (if has_h (string-append (data-of (node-list-first h_nl)) 
+	 (if has_h (string-append (data-of (node-list-first h_nl))
 				  %honorific-punctuation%) "")
-	 (if has_f (string-append 
-		    (if has_h " " "") 
+	 (if has_f (string-append
+		    (if has_h " " "")
 		    (data-of (node-list-first f_nl))) "")
 	 (if has_o (string-append
 		    (if (or has_h has_f) " " "")
 		    (data-of (node-list-first o_nl))) "")
-	 (if has_s (string-append 
+	 (if has_s (string-append
 		    (if (or has_h has_f has_o) " " "")
 		    (data-of (node-list-first s_nl))) "")
 	 (if has_l (string-append ", " (data-of (node-list-first l_nl))) ""))
@@ -65,16 +65,16 @@
 
 (define (th-xref-strings)
   (list (list (normalize "appendix")    (if %chapter-autolabel%
-					    "&Appendix;ที่ %n"
-					    "&appendix; %t"))
+					    "&Appendix; %n"
+					    "the &appendix; called %t"))
 	(list (normalize "article")     (string-append %gentext-th-start-quote%
 						       "%t"
 						       %gentext-th-end-quote%))
 	(list (normalize "bibliography") "%t")
 	(list (normalize "book")        "%t")
 	(list (normalize "chapter")     (if %chapter-autolabel%
-					    "&Chapter;ที่ %n"
-					    "&chapter; %t"))
+					    "&Chapter; %n"
+					    "the &chapter; called %t"))
 	(list (normalize "equation")    "&Equation; %n")
 	(list (normalize "example")     "&Example; %n")
 	(list (normalize "figure")      "&Figure; %n")
@@ -86,27 +86,27 @@
 	(list (normalize "procedure")   "&Procedure; %n, %t")
 	(list (normalize "reference")   "&Reference; %n, %t")
 	(list (normalize "section")     (if %section-autolabel%
-					    "&Section;ที่ %n"
-					    "&section; %t"))
+					    "&Section; %n"
+					    "the &section; called %t"))
 	(list (normalize "sect1")       (if %section-autolabel%
-					    "&Section;ที่ %n"
-					    "&section; %t"))
+					    "&Section; %n"
+					    "the &section; called %t"))
 	(list (normalize "sect2")       (if %section-autolabel%
-					    "&Section;ที่ %n"
-					    "&section; %t"))
+					    "&Section; %n"
+					    "the &section; called %t"))
 	(list (normalize "sect3")       (if %section-autolabel%
-					    "&Section;ที่ %n"
-					    "&section; %t"))
+					    "&Section; %n"
+					    "the &section; called %t"))
 	(list (normalize "sect4")       (if %section-autolabel%
-					    "&Section;ที่ %n"
-					    "&section; %t"))
+					    "&Section; %n"
+					    "the &section; called %t"))
 	(list (normalize "sect5")       (if %section-autolabel%
-					    "&Section;ที่ %n"
-					    "&section; %t"))
+					    "&Section; %n"
+					    "the &section; called %t"))
 	(list (normalize "simplesect")  (if %section-autolabel%
-					    "&Section;ที่ %n"
-					    "&section; %t"))
-	(list (normalize "sidebar")     "&sidebar; %t")
+					    "&Section; %n"
+					    "the &section; called %t"))
+	(list (normalize "sidebar")     "the &sidebar; %t")
 	(list (normalize "step")        "&step; %n")
 	(list (normalize "table")       "&Table; %n")))
 
@@ -122,17 +122,25 @@
 	       (err    (node-list-error msg (current-node))))
 	  msg))))
 
-(define (th-auto-xref-indirect-connector before) 
+(define (th-auto-xref-indirect-connector before)
   ;; In English, the (cond) is unnecessary since the word is always the
   ;; same, but in other languages, that's not the case.  I've set this
   ;; one up with the (cond) so it stands as an example.
+  (cond
+   ((equal? (gi before) (normalize "book"))
     (literal " &in; "))
+   ((equal? (gi before) (normalize "chapter"))
+    (literal " &in; "))
+   ((equal? (gi before) (normalize "sect1"))
+    (literal " &in; "))
+   (else
+    (literal " &in; "))))
 
 ;; Should the TOC come first or last?
 ;;
 (define %generate-th-toc-in-front% #t)
 
-;; gentext-element-name returns the generated text that should be 
+;; gentext-element-name returns the generated text that should be
 ;; used to make reference to the selected element.
 ;;
 
@@ -204,13 +212,13 @@
 	 (pname  (assoc name (th-element-name))))
     (if pname
 	(car (cdr pname))
-	(let* ((msg (string-append 
+	(let* ((msg (string-append
 		     "gentext-th-element-name: &unexpectedelementname;: "
 		     name))
 	       (err (node-list-error msg (current-node))))
 	  msg))))
 
-;; gentext-element-name-space returns gentext-element-name with a 
+;; gentext-element-name-space returns gentext-element-name with a
 ;; trailing space, if gentext-element-name isn't "".
 ;;
 (define (gentext-th-element-name-space giname)
@@ -332,7 +340,7 @@
    (list (normalize "prefix")		"1")
    (list (normalize "part")		"I")
    (list (normalize "chapter")		"1")
-   (list (normalize "appendix")		"A")
+   (list (normalize "appendix")	"U-0E01")
    (list (normalize "reference")	"I")
    (list (normalize "example")		"1")
    (list (normalize "figure")		"1")
@@ -412,10 +420,10 @@
 (define %gentext-th-index-seealso% "&SeeAlso;")
 
 
-(define (gentext-th-nav-prev prev) 
+(define (gentext-th-nav-prev prev)
   (make sequence (literal "&nav-prev;")))
 
-(define (gentext-th-nav-prev-sibling prevsib) 
+(define (gentext-th-nav-prev-sibling prevsib)
   (make sequence (literal "&nav-prev-sibling;")))
 
 (define (gentext-th-nav-next-sibling nextsib)

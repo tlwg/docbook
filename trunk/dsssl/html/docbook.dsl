@@ -359,12 +359,12 @@
 ]>
 
 <style-sheet>
-<style-specification id="docbook" 
+<style-specification id="docbook"
     use="af ca cs da de el en es et fi fr hu id it ja ko nl no pl pt ptbr ro ru sk sl sr sv th tr zhcn zhtw dbparam dblib">
 
 <style-specification-body>
 
-;; $Id: docbook.dsl,v 1.1.1.1 2001-11-21 15:43:11 pruet Exp $
+;; $Id: docbook.dsl,v 1.2 2001-12-10 02:04:46 sf_alpha Exp $
 ;;
 ;; This file is part of the Modular DocBook Stylesheet distribution.
 ;; See ../README or http://www.berkshire.net/~norm/dsssl/
@@ -409,7 +409,7 @@
 ;    (debug (node-property 'gi
 ;			  (node-property 'document-element (current-node)))))
 ;(define (docelem node)
-;  (node-propety 'document-element 
+;  (node-propety 'document-element
 ;    (node-property 'grove-root node)))
    (process-children)
    (with-mode manifest
@@ -423,7 +423,7 @@
   ;; this mode is really just a hack to get at the root element
   (root (process-children))
 
-  (default 
+  (default
     (if (node-list=? (current-node) (sgml-root-element))
 	(if html-manifest
 	    (make entity
