@@ -362,7 +362,7 @@
 
 <style-specification-body>
 
-;; $Id: docbook.dsl,v 1.1.1.1 2001-11-21 15:43:18 pruet Exp $
+;; $Id: docbook.dsl,v 1.2 2001-12-10 02:04:47 sf_alpha Exp $
 ;;
 ;; This file is part of the Modular DocBook Stylesheet distribution.
 ;; See ../README or http://www.berkshire.net/~norm/dsssl/
@@ -374,7 +374,7 @@
 (define if-first-page
   (external-procedure "UNREGISTERED::James Clark//Procedure::if-first-page"))
 
-(declare-characteristic heading-level 
+(declare-characteristic heading-level
    "UNREGISTERED::James Clark//Characteristic::heading-level" 0)
 
 (declare-characteristic page-number-format
@@ -417,7 +417,7 @@
 
 ;; Make text that comes from unimplemented tags easy to spot
 (default
-  (let* ((colr-space (color-space 
+  (let* ((colr-space (color-space
 		      "ISO/IEC 10179:1996//Color-Space Family::Device RGB"))
 	 (red (color colr-space 1 0 0)))
     (make sequence
@@ -492,8 +492,8 @@
 <external-specification id="sl" document="dbl1sl">
 <external-specification id="sr" document="dbl1sr">
 <external-specification id="sv" document="dbl1sv">
-<external-specification id="th" document="dbl1th">
 <external-specification id="tr" document="dbl1tr">
+<external-specification id="th" document="dbl1th">
 <external-specification id="zhcn" document="dbl1zhcn">
 <external-specification id="zhtw" document="dbl1zhtw">
 

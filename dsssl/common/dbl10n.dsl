@@ -1,4 +1,4 @@
-;; $Id: dbl10n.dsl,v 1.1.1.1 2001-11-21 15:43:35 pruet Exp $
+;; $Id: dbl10n.dsl,v 1.2 2001-12-10 02:04:39 sf_alpha Exp $
 ;;
 ;; This file is part of the Modular DocBook Stylesheet distribution.
 ;; See ../README or http://nwalsh.com/docbook/dsssl/
@@ -44,7 +44,7 @@
 ;; sl - Slovenian                           1.55
 ;; sr - Serbian                             1.70
 ;; sv - Swedish (previously svse)
-;; th - Thai
+;; th - Thai                                (thai-alpha)
 ;; tr - Turkish                             1.71
 ;; zhcn - Chinese (Continental)             1.55
 ;; zhtw - Chinese (Traditional)             1.70
@@ -181,10 +181,10 @@
       <![%l10n-en[ (("usen") (gentext-en-xref-strings giname)) ]]>
       <![%l10n-no[ (("bmno") (gentext-no-xref-strings giname)) ]]>
       <![%l10n-sv[ (("svse") (gentext-sv-xref-strings giname)) ]]>
-      (else (error (string-append "L10N ERROR: gentext-xref-strings: " 
+      (else (error (string-append "L10N ERROR: gentext-xref-strings: "
 				  lang))))))
 
-(define (auto-xref-indirect-connector before) 
+(define (auto-xref-indirect-connector before)
   (case ($lang$)
     <![%l10n-af[ (("af") (af-auto-xref-indirect-connector before)) ]]>
     <![%l10n-ca[ (("ca") (ca-auto-xref-indirect-connector before)) ]]>
@@ -1172,7 +1172,7 @@
     <![%l10n-sv[ (("svse") %gentext-sv-index-seealso%) ]]>
     (else (error "L10N ERROR: gentext-index-seealso"))))
 
-(define (gentext-nav-prev prev) 
+(define (gentext-nav-prev prev)
   (case ($lang$)
     <![%l10n-af[ (("af") (gentext-af-nav-prev prev)) ]]>
     <![%l10n-ca[ (("ca") (gentext-ca-nav-prev prev)) ]]>
@@ -1213,7 +1213,7 @@
     <![%l10n-sv[ (("svse") (gentext-sv-nav-prev prev)) ]]>
     (else (error "L10N ERROR: gentext-nav-prev"))))
 
-(define (gentext-nav-prev-sibling prevsib) 
+(define (gentext-nav-prev-sibling prevsib)
   (case ($lang$)
     <![%l10n-af[ (("af") (gentext-af-nav-prev-sibling prevsib)) ]]>
     <![%l10n-ca[ (("ca") (gentext-ca-nav-prev-sibling prevsib)) ]]>
